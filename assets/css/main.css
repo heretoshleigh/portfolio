@@ -1823,12 +1823,8 @@ input, select, textarea {
 					width: 48px;
 				}
 
-				ul.social li a.fa-envelope {
-					background-color: #0F9D58;
-				}
-
 				ul.social li a.fa-linkedin {
-					background-color: #0077B5;
+					background-color: #8D6CAB;
 				}
 
 				ul.social li a.fa-twitter {
@@ -2075,9 +2071,14 @@ input, select, textarea {
 				color: inherit;
 			}
 
-    #about h2, #about p {
+    #about h2 {
         text-align: left;
     }
+
+	#about p {
+		text-align: left;
+		margin-bottom: 1em;
+	}
     
 	.img-container {
 		display: flex;
@@ -2348,7 +2349,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 3em 0;
+				padding: 2em 0;
 				text-align: center;
 			}
 
@@ -2373,12 +2374,12 @@ input, select, textarea {
 		/* Articles */
 
             #top {
-                padding: 3em 0;
+                padding: 2em 0;
                 text-align: center;
             }
 
             #about {
-				padding: 3em 0;
+				padding: 2em 0;
 			}
 
                 #about h2, #about p {
