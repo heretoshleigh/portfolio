@@ -1,5 +1,5 @@
 # Portfolio
-This responsive website showcasing my web development work serves as both a landing page for my freelance business and as a portfolio to share with potential employers and partners.
+This responsive website showcasing my web development work serves as both a landing page for my freelance business and a portfolio for potential employers and partners.
 
 [Visit live site](https://www.ashleighcodes.com/)
 
