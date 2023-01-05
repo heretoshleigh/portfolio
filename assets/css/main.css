@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700&display=swap");
 
 /*
 	Miniport by HTML5 UP
@@ -1913,8 +1913,14 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-		.icon > .label {
-			display: none;
+		.icon > .visually-hidden:not(:focus):not(:active) {
+			clip: rect(0 0 0 0); 
+			clip-path: inset(50%);
+			height: 1px;
+			width: 1px;
+			overflow: hidden;
+			position: absolute;
+			white-space: nowrap;
 		}
 
 		.icon.brands:before {
